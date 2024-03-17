@@ -1,0 +1,83 @@
+.bmiCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    flex-direction: column;
+}
+
+.myheading{
+    background-color: black;
+    color: white;
+    width: 400px;
+    text-align: center;
+    padding: 18px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0;
+}
+
+.mycard{
+    margin-top: 0;
+    height: 600px;
+    width: 400px;
+    border: 0px solid black;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+p{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.button1{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin-top: 13px;
+    /* margin-left: 15px; */
+    width: 15rem;
+    border: 2px solid white;
+}
+
+.button2{
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin-top: 7px;
+    /* margin-left: 15px; */
+    width: 15rem;
+    border: 1px solid black;
+}
+
+.myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mymsg{
+    margin-top: 3px;
+}
